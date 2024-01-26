@@ -49,3 +49,66 @@ nav a{
 text-decoration: none;
 
 }
+
+:root {
+  --color-primary: #F5F5F5; /* Beige claro */
+  --color-secondary: #E8F0FE; /* Azul claro */
+  --color-accent: #4F6D8F; /* Azul medio */
+}
+
+/* Estilos de párrafos */
+p {
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* Estilos de títulos */
+h1, h2, h3 {
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+/* Estilos de elementos span */
+span {
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: normal;
+}
+
+/* Estilos de enlaces */
+a {
+  color:#4F6D8F;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+/* Estilos de fondo de menús */
+.nav {
+  background-color: var(--color-secondary);
+  color:black
+}
+
+/* Otros estilos de fondo */
+.background {
+  background-color: var(--color-primary);
+}
+
+.container {
+  background-color: var(--color-accent);
+}
